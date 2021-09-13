@@ -1,0 +1,8 @@
+users:
+  - name: user
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD0fK/xvgLTMbE2VP2JiKcMWjSkLIFvOT2MKeyykCv2DppbiqqPEAamR1bxI5dNaIygNf5WnQBPilAfvQjGgLN4txKepcV0VpIAq8mx1NJmp7TnyRjuOs2fMfWs/FcZ8h4qiX8Mo8mVeWfsQROs3GpOL8LrueX7MSOdE9Crmsv991EJLcoM00CUAkqZhNcXxoXiJ9nmpgVfXejnFu+BvoGpdzkVfjMjY+tSFj5YvZFUnQv9ipdSa2AZe4vfoLlBhFCcG5rb3kg0288fKWs81+eN1M59ewRH+5iG/pa9lmd4gnFE/UsJSzxJkFFKenXNeHhIT/pDccSicBzC3EKW/Y8IPm77BY5JPD3jp1uc72VtNzck09zmMTeP+wcgMv/jpI4SlaMuoLrrYorX1JbY94wFrvw1BTL28D8E3Q21fPZO+K2i+J/hODDfqY/Fc0FcfO5o1aYHmySLJ2Y8sK80cHXuRAHU8ngt7KoTC4lqEELpMHBD5faS8sv06IU+YICNtJM= user@vm1
+      
